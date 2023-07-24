@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This is my portfolio site 
 
-## Getting Started
+-built on NextJS and TailWindCSS
 
-First, run the development server:
+An entertaining read below for bosses that read documentations of future SWEs of their company. And it's also my cheatsheet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Why NextJS?
+#### Because ... [filled in later]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Why TailWindCss? 
+#### TailWind is like Bootstrap, but smarter, and adaptively thin .css file
+- It provides utility CSS classes so you can get back to programming logic, not playing with CSS styles for 5 hours while your boss is asking you why 5yr Timmy programmed the Mars rover but you can't get text centered on a page.
+- It is smart and implements "treeshaking" (https://markmurray.co/blog/tree-shaking-css-modules/) and removes the utilities that aren't used making your CSS file thinner
