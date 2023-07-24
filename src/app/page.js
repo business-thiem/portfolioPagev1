@@ -12,6 +12,8 @@ import web3 from "../../public/web3.png";
 import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
 import web6 from "../../public/web6.png";
+
+//TODO fix useState
 import { useState } from "react";
 
 export default function Home() {
