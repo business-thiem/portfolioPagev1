@@ -33,7 +33,7 @@ export default function Home() {
           <h1 className="text-xl font-burtons dark:text-gray-200">Thiem Huynh - Software Developer</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:fill-white"/>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
 
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 dark:shadow-gray-950">
               <Image src={design} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-200">Designs</h3>
               <p className="dark:text-gray-400">
@@ -80,10 +80,10 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">After Effects</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 dark:shadow-gray-950">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Designs</h3>
-              <p>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-200">Designs</h3>
+              <p className="dark:text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <h4 className="py-4 text-teal-600">Tools I used</h4>
@@ -94,10 +94,10 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">After Effects</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 dark:shadow-gray-950">
               <Image src={consulting} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Designs</h3>
-              <p>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-200">Designs</h3>
+              <p className="dark:text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <h4 className="py-4 text-teal-600">Tools I used</h4>
@@ -112,8 +112,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p>
+            <h3 className="text-3xl py-1 dark:text-gray-200">Portfolio</h3>
+            <p className="dark:text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper sit amet risus nullam eget felis eget nunc. Eu nisl nunc mi ipsum faucibus. Neque gravida in fermentum et sollicitudin.
           </p>
           </div>
