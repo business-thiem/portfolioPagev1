@@ -6,8 +6,8 @@ An entertaining read below for bosses that read documentations of future SWEs of
 
 ## Why NextJS?
 #### Because SERVER-SIDE RENDERING. 
--Great for SEO
--Cuts out redundancy of React
+- Great for SEO
+- Cuts out redundancy of React
 
 ### Why TailWindCSS? 
 #### TailWind is like Bootstrap, but smarter, and adaptively thin .css file
